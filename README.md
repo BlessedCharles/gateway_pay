@@ -65,18 +65,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# pay_gateway
-# gateway_pay
+
+Steps to use this Basic Payment Gateway
+- Download, extract the zip file, and place it in htdocs folder (windows user) or site (MacUSer)
+or your desire location but make sure that it will work on xamp/wamp/lamp.
+- navigate to this URL in your browser example depending on the Apache/local server you're using or the configuration my URL: http://localhost:8888/payment-app/payment/form
+- Ideally when you choose a different payment gateway it should display it but currently paystack is working.
+- I created a folder called Contract in the app directory it has payment gateways and payment service.
+- i also have gateways folder in the app directory which has paypal gateway and paystack gateway.
+- i also have another folder called Services that has paymentservice.php file
+- you can check paymentcontroller in the app directly under http and controllers folder
+- It's not connected to Database yet
+
+Thank you
+
